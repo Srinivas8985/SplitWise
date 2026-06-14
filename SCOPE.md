@@ -1,4 +1,4 @@
-# Spreetrail Project Scope
+# SplitWise Project Scope
 
 ## Problem Statement
 Managing shared expenses among friends, roommates, and travel companions often leads to confusion, lost receipts, and awkward conversations about money. Manually tracking who paid for what and calculating who owes whom is error-prone, especially when splits are not perfectly equal.

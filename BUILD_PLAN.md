@@ -1,4 +1,4 @@
-# BUILD_PLAN.md — Spreetrail
+# BUILD_PLAN.md — SplitWise Pro
 
 > **Implementation roadmap derived from [AI_CONTEXT.md](./AI_CONTEXT.md).**
 > Every phase, task, and decision is documented here before code is written.
@@ -8,7 +8,7 @@
 ## 1. Project Structure
 
 ```
-Spreetrail/
+SplitWise Pro/
 ├── client/                     # React + Vite Frontend
 │   ├── public/
 │   ├── src/

@@ -1,6 +1,6 @@
 # AI Usage Documentation
 
-This document outlines how Artificial Intelligence tools were utilized during the development of Spreetrail.
+This document outlines how Artificial Intelligence tools were utilized during the development of SplitWise Pro.
 
 ## AI Tools Used
 * **Anthropic Claude Opus 4.6 / Google Gemini** (via integrated agent IDE framework)

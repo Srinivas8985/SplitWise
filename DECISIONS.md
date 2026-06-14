@@ -1,11 +1,11 @@
-# Spreetrail Decision Log
+# SplitWise Pro Decision Log
 
-This document records the major architectural and technical decisions made during the development of Spreetrail.
+This document records the major architectural and technical decisions made during the development of SplitWise Pro.
 
 ### 1. PostgreSQL vs MongoDB
 * **Options Considered**: PostgreSQL (Relational), MongoDB (NoSQL)
 * **Chosen Solution**: PostgreSQL
-* **Reason**: Spreetrail handles financial data characterized by strict relationships (Users -> Groups -> Expenses -> Splits). Ensuring ACID compliance and enforcing referential integrity (e.g., cascading deletes so deleting a group cleans up all related expenses) is natively supported and safer in a relational database.
+* **Reason**: SplitWise Pro handles financial data characterized by strict relationships (Users -> Groups -> Expenses -> Splits). Ensuring ACID compliance and enforcing referential integrity (e.g., cascading deletes so deleting a group cleans up all related expenses) is natively supported and safer in a relational database.
 
 ### 2. Prisma vs Raw SQL
 * **Options Considered**: Prisma ORM, Sequelize, Raw SQL (pg)

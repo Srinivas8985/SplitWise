@@ -1,8 +1,8 @@
-# Spreetrail
+# SplitWise Pro
 
 ## Project Overview
 
-Spreetrail is a Splitwise-inspired expense sharing and tracking application. It allows users to form groups, add shared expenses, calculate exact pairwise balances, and record settlements. The application simplifies the process of tracking who paid for what and who owes whom, supporting various complex splitting algorithms (equal, unequal, percentage, and shares) while keeping all members synced.
+SplitWise Pro is a Splitwise-inspired expense sharing and tracking application. It allows users to form groups, add shared expenses, calculate exact pairwise balances, and record settlements. The application simplifies the process of tracking who paid for what and who owes whom, supporting various complex splitting algorithms (equal, unequal, percentage, and shares) while keeping all members synced.
 
 ### Key Features
 * **Authentication**: Secure user registration and login using JWT.
@@ -41,7 +41,7 @@ Balances are **not** stored statically. Instead, the balance engine dynamically 
 ## Folder Structure
 
 ```text
-Spreetrail/
+SplitWise Pro/
 ├── client/                 # React Frontend
 │   ├── public/
 │   └── src/

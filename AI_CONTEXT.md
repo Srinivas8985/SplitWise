@@ -1,4 +1,4 @@
-# AI_CONTEXT.md — Spreetrail (Splitwise Clone MVP)
+# AI_CONTEXT.md — SplitWise Pro (Splitwise Clone MVP)
 
 > **This file is the single source of truth for the entire project.**
 > Every requirement, decision, and tradeoff is documented here.
@@ -10,7 +10,7 @@
 
 | Field              | Value                                      |
 | ------------------ | ------------------------------------------ |
-| **Project Name**   | Spreetrail                                 |
+| **Project Name**   | SplitWise Pro                                 |
 | **Type**           | Splitwise Clone — MVP                      |
 | **Goal**           | Reverse-engineer Splitwise, scope a realistic MVP, and build a working deployed application |
 | **Status**         | 🟢 Requirements Complete — Ready for BUILD_PLAN |

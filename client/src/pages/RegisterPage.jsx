@@ -60,7 +60,7 @@ export default function RegisterPage() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-header">
-          <h1 className="auth-logo">Spreetrail</h1>
+          <h1 className="auth-logo">SplitWise Pro</h1>
           <p className="auth-subtitle">Split expenses with friends</p>
         </div>
 
