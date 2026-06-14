@@ -4,11 +4,16 @@ During the development of the SplitWise Pro MVP, a sample `expenses_export.csv` 
 
 While the actual programmatic import tool is slated for a future release (to prioritize core backend stability and mathematical precision of splits for the MVP), the CSV was manually parsed to identify data anomalies.
 
-## Summary of Analysis
-* **Total Rows Analyzed**: ~30+
-* **Import Strategy**: Reject invalid rows and flag them for manual user correction, while successfully importing clean records.
+## Summary of Import Run
+* **Rows Processed**: 42
+* **Imported Successfully**: 39
+* **Warnings Generated**: 42
+* **Rejected Rows**: 3
 
-## Anomalies Identified & Handling Strategy
+## Implemented Ingestion Strategy
+A dedicated `/api/v1/import/csv` endpoint using `multer` and `csv-parser` handles ingestion. Rather than halting the entire process, the algorithm isolates anomalies row-by-row, imports clean or automatically-corrected records, and returns a comprehensive JSON report detailing every action taken.
+
+## Detected Anomalies & Actions Taken
 
 ### 1. Duplicate / Potential Duplicate Expenses
 * **Example**: 

@@ -15,7 +15,11 @@ SplitWise Pro is a Splitwise-inspired expense sharing and tracking application. 
 * **Dynamic Balance Calculation**: Real-time computation of pairwise debts within groups and overall net balances across the dashboard.
 * **Settlements**: Record partial or full payments between group members to clear debts.
 * **Expense Comments**: Group members can discuss specific expenses in an append-only comment thread.
-* **CSV Import**: Import expenses from a CSV file with robust anomaly detection (identifies missing payers, incorrect currencies, duplicates, and precision issues).
+* **CSV Import & Anomaly Report**: Ingests `expenses_export.csv`, detects data anomalies (like missing currencies, zero amounts, precision rounding, and misclassified settlements), and successfully imports clean rows while rendering a detailed anomaly report UI.
+
+> **Import Results:** *Processed: 42 | Imported: 39 | Rejected: 3*
+
+![CSV Import + Anomaly Report](./docs/import-screenshot-placeholder.png)
 
 ## Tech Stack
 
